@@ -114,7 +114,7 @@ esp32c6 = ["dep:esp32c6", "riscv",  "procmacros/has-lp-core", "esp-riscv-rt/rtc-
 # Target the ESP32-H2.
 esp32h2 = ["dep:esp32h2", "riscv", "esp-riscv-rt/rtc-ram"]
 # Target the ESP32-S2.
-esp32s2 = ["dep:esp32s2", "xtensa", "portable-atomic/critical-section", "procmacros/has-ulp-core", "xtensa-lx-rt/esp32s2", "usb-otg"]
+esp32s2 = ["dep:esp32s2", "xtensa", "procmacros/has-ulp-core", "xtensa-lx-rt/esp32s2", "usb-otg"]
 # Target the ESP32-S3.
 esp32s3 = ["dep:esp32s3", "xtensa", "procmacros/has-ulp-core", "xtensa-lx/spin", "xtensa-lx-rt/esp32s3", "usb-otg"]
 
